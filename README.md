@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HardwareID Shower - Desktop Executable Build
 
 This project is a Flask-based application to show and mask hardware IDs and network information.
@@ -43,3 +44,7 @@ These are included in the executable.
 - If the app does not start, check the console output for errors.
 - Ensure no firewall or antivirus is blocking the app.
 - Run the executable as administrator.
+=======
+# ratonlzdspoofer-
+kills/ ddos/ spoofer
+>>>>>>> a9b0845836f1ef6b14d7264deb74fb618ff0dbc0
