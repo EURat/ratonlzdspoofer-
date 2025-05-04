@@ -1,0 +1,5 @@
+flask
+pywebview
+wmi
+requests
+psutil

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hardware ID Shower</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+    <div class="container">
+        <h1>Hardware ID Shower</h1>
+        <div class="section">
+            <h2>CPU IDs</h2>
+            <ul id="cpu-ids-list" class="id-list"></ul>
+        </div>
+        <div class="section">
+            <h2>Hard Drive Serial Numbers</h2>
+            <ul id="hd-serials-list" class="id-list"></ul>
+        </div>
+        <div class="buttons">
+            <button id="randomize-btn">Randomize IDs</button>
+            <button id="revert-btn">Revert to Original</button>
+        </div>
+
+        <div class="section">
+            <h2>Running Processes</h2>
+            <ul id="processes-list" class="id-list"></ul>
+        </div>
+
+        <div id="message" class="message"></div>
+    </div>
+
+    <script>
+        async function fetchIds() {
+            const response = await fetch('/api/get_ids');
+            const data = await response.json();
+            return data;
+        }
+
+        function updateList(elementId, items) {
+            const list = document.getElementById(elementId);
+            list.innerHTML = '';
+            items.forEach(item => {
+                const li = document.createElement('li');
+                if (typeof item === 'string') {
+                    li.textContent = item;
+                } else if (item.pid && item.name) {
+                    li.textContent = `${item.name} (PID: ${item.pid}) `;
+                    const killBtn = document.createElement('button');
+                    killBtn.textContent = 'Kill';
+                    killBtn.style.marginLeft = '10px';
+                    killBtn.onclick = () => killProcess(item.pid);
+                    li.appendChild(killBtn);
+                }
+                list.appendChild(li);
+            });
+        }
+
+        async function refreshIds() {
+            const data = await fetchIds();
+            updateList('cpu-ids-list', data.cpu_ids);
+            updateList('hd-serials-list', data.hd_serials);
+        }
+
+        async function fetchProcesses() {
+            const response = await fetch('/api/processes');
+            const data = await response.json();
+            updateList('processes-list', data);
+        }
+
+        async function randomizeIds() {
+            const response = await fetch('/api/randomize', { method: 'POST' });
+            const data = await response.json();
+            updateList('cpu-ids-list', data.cpu_ids);
+            updateList('hd-serials-list', data.hd_serials);
+            showMessage(data.message);
+        }
+
+        async function revertIds() {
+            const response = await fetch('/api/revert', { method: 'POST' });
+            const data = await response.json();
+            updateList('cpu-ids-list', data.cpu_ids);
+            updateList('hd-serials-list', data.hd_serials);
+            showMessage(data.message);
+        }
+
+        async function killProcess(pid) {
+            if (!confirm(`Are you sure you want to kill process PID ${pid}?`)) {
+                return;
+            }
+            const response = await fetch('/api/kill_process', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ pid })
+            });
+            const data = await response.json();
+            showMessage(data.message);
+            fetchProcesses();
+        }
+
+        function showMessage(msg) {
+            const messageDiv = document.getElementById('message');
+            messageDiv.textContent = msg;
+            setTimeout(() => {
+                messageDiv.textContent = '';
+            }, 4000);
+        }
+
+        document.getElementById('randomize-btn').addEventListener('click', randomizeIds);
+        document.getElementById('revert-btn').addEventListener('click', revertIds);
+
+        // Initial load
+        refreshIds();
+        fetchProcesses();
+        setInterval(fetchProcesses, 5000); // Refresh process list every 5 seconds
+    </script>
+</body>
+</html>

@@ -1,0 +1,541 @@
+2025-05-04 12:11:23,919 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-04 12:11:23,919 - [33mPress CTRL+C to quit[0m
+2025-05-04 12:11:23,929 -  * Restarting with stat
+2025-05-04 12:11:25,558 -  * Debugger is active!
+2025-05-04 12:11:25,564 -  * Debugger PIN: 134-969-618
+2025-05-04 12:11:42,760 - 127.0.0.1 - - [04/May/2025 12:11:42] "GET / HTTP/1.1" 200 -
+2025-05-04 12:11:42,874 - 127.0.0.1 - - [04/May/2025 12:11:42] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-04 12:11:42,990 - 127.0.0.1 - - [04/May/2025 12:11:42] "GET /api/get_ids HTTP/1.1" 200 -
+2025-05-04 12:11:43,232 - 127.0.0.1 - - [04/May/2025 12:11:43] "[35m[1mGET /api/get_devices HTTP/1.1[0m" 500 -
+2025-05-04 12:11:43,259 - 127.0.0.1 - - [04/May/2025 12:11:43] "GET /api/get_processes HTTP/1.1" 200 -
+2025-05-04 12:11:43,260 - 127.0.0.1 - - [04/May/2025 12:11:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-04 12:12:00,220 - Randomized CPU ID from BFEBFBFF000A0652 to UWBZD5U0YU63RYLU
+2025-05-04 12:12:00,220 - Randomized Hard Drive Serial Number from 0000_0000_0000_0000_0026_B778_4E91_CD85. to 8GAQUG90RKQ2MHKU
+2025-05-04 12:12:00,220 - 127.0.0.1 - - [04/May/2025 12:12:00] "POST /api/randomize HTTP/1.1" 200 -
+2025-05-04 12:12:03,557 - Randomized CPU ID from UWBZD5U0YU63RYLU to A1027RTCJUICTLW2
+2025-05-04 12:12:03,558 - Randomized Hard Drive Serial Number from 8GAQUG90RKQ2MHKU to ZVCE6ZSKC0HB1CXW
+2025-05-04 12:12:03,558 - 127.0.0.1 - - [04/May/2025 12:12:03] "POST /api/randomize HTTP/1.1" 200 -
+2025-05-04 12:12:04,678 - Randomized CPU ID from A1027RTCJUICTLW2 to GCS9KW7RFILK94OE
+2025-05-04 12:12:04,678 - Randomized Hard Drive Serial Number from ZVCE6ZSKC0HB1CXW to JGD0P9MONC4TYBFM
+2025-05-04 12:12:04,678 - 127.0.0.1 - - [04/May/2025 12:12:04] "POST /api/randomize HTTP/1.1" 200 -
+2025-05-04 12:12:05,004 - Randomized CPU ID from GCS9KW7RFILK94OE to 5GLG4TRRDWDTROYZ
+2025-05-04 12:12:05,004 - Randomized Hard Drive Serial Number from JGD0P9MONC4TYBFM to 6AUILUOTDMQ7105X
+2025-05-04 12:12:05,004 - 127.0.0.1 - - [04/May/2025 12:12:05] "POST /api/randomize HTTP/1.1" 200 -
+2025-05-04 12:12:06,143 - Randomized CPU ID from 5GLG4TRRDWDTROYZ to GIW7GSRMB1L0Q045
+2025-05-04 12:12:06,144 - Randomized Hard Drive Serial Number from 6AUILUOTDMQ7105X to T6P1WXDR6M02O61R
+2025-05-04 12:12:06,144 - 127.0.0.1 - - [04/May/2025 12:12:06] "POST /api/randomize HTTP/1.1" 200 -
+2025-05-04 12:12:07,143 - Reverted CPU ID to original: BFEBFBFF000A0652
+2025-05-04 12:12:07,143 - Reverted Hard Drive Serial Number to original: 0000_0000_0000_0000_0026_B778_4E91_CD85.
+2025-05-04 12:12:07,144 - 127.0.0.1 - - [04/May/2025 12:12:07] "POST /api/revert HTTP/1.1" 200 -
+2025-05-04 12:12:27,061 - 127.0.0.1 - - [04/May/2025 12:12:27] "[33mPOST /api/kill_process HTTP/1.1[0m" 404 -
+2025-05-04 12:12:34,551 - 127.0.0.1 - - [04/May/2025 12:12:34] "[33mPOST /api/kill_process HTTP/1.1[0m" 404 -
+2025-05-04 12:12:38,698 - Reverted CPU ID to original: BFEBFBFF000A0652
+2025-05-04 12:12:38,698 - Reverted Hard Drive Serial Number to original: 0000_0000_0000_0000_0026_B778_4E91_CD85.
+2025-05-04 12:12:38,699 - 127.0.0.1 - - [04/May/2025 12:12:38] "POST /api/revert HTTP/1.1" 200 -
+2025-05-04 12:12:39,049 - Randomized CPU ID from BFEBFBFF000A0652 to CRRDYX6KBRIGK9XI
+2025-05-04 12:12:39,050 - Randomized Hard Drive Serial Number from 0000_0000_0000_0000_0026_B778_4E91_CD85. to SDTUDJBWWF87MZO2
+2025-05-04 12:12:39,051 - 127.0.0.1 - - [04/May/2025 12:12:39] "POST /api/randomize HTTP/1.1" 200 -
+2025-05-04 12:19:04,626 - 127.0.0.1 - - [04/May/2025 12:19:04] "GET / HTTP/1.1" 200 -
+2025-05-04 12:19:04,654 - 127.0.0.1 - - [04/May/2025 12:19:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-04 12:19:04,879 - 127.0.0.1 - - [04/May/2025 12:19:04] "GET /api/get_ids HTTP/1.1" 200 -
+2025-05-04 12:19:05,011 - 127.0.0.1 - - [04/May/2025 12:19:05] "[35m[1mGET /api/get_devices HTTP/1.1[0m" 500 -
+2025-05-04 12:19:05,049 - 127.0.0.1 - - [04/May/2025 12:19:05] "GET /api/get_processes HTTP/1.1" 200 -
+2025-05-04 12:20:19,115 -  * Detected change in 'C:\\Users\\rznto\\OneDrive\\Desktop\\HardwareID_shower\\app.py', reloading
+2025-05-04 12:20:19,156 -  * Restarting with stat
+2025-05-04 12:20:20,750 -  * Debugger is active!
+2025-05-04 12:20:20,757 -  * Debugger PIN: 134-969-618
+2025-05-04 12:21:20,840 - 127.0.0.1 - - [04/May/2025 12:21:20] "GET / HTTP/1.1" 200 -
+2025-05-04 12:21:20,960 - 127.0.0.1 - - [04/May/2025 12:21:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-04 12:21:21,090 - 127.0.0.1 - - [04/May/2025 12:21:21] "GET /api/get_ids HTTP/1.1" 200 -
+2025-05-04 12:21:21,277 - 127.0.0.1 - - [04/May/2025 12:21:21] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:21:21,283 - 127.0.0.1 - - [04/May/2025 12:21:21] "[35m[1mGET /api/get_devices HTTP/1.1[0m" 500 -
+2025-05-04 12:21:21,381 - 127.0.0.1 - - [04/May/2025 12:21:21] "GET /api/get_processes HTTP/1.1" 200 -
+2025-05-04 12:21:24,289 - 127.0.0.1 - - [04/May/2025 12:21:24] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:21:27,615 - 127.0.0.1 - - [04/May/2025 12:21:27] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:21:30,620 - 127.0.0.1 - - [04/May/2025 12:21:30] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:21:33,939 - 127.0.0.1 - - [04/May/2025 12:21:33] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:21:36,947 - 127.0.0.1 - - [04/May/2025 12:21:36] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:21:40,261 - 127.0.0.1 - - [04/May/2025 12:21:40] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:21:43,276 - 127.0.0.1 - - [04/May/2025 12:21:43] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:21:46,595 - 127.0.0.1 - - [04/May/2025 12:21:46] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:21:49,604 - 127.0.0.1 - - [04/May/2025 12:21:49] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:21:53,334 - 127.0.0.1 - - [04/May/2025 12:21:53] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:21:57,018 - 127.0.0.1 - - [04/May/2025 12:21:57] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:22:01,348 - 127.0.0.1 - - [04/May/2025 12:22:01] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:22:05,034 - 127.0.0.1 - - [04/May/2025 12:22:05] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:22:09,349 - 127.0.0.1 - - [04/May/2025 12:22:09] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:22:13,035 - 127.0.0.1 - - [04/May/2025 12:22:13] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:22:17,345 - 127.0.0.1 - - [04/May/2025 12:22:17] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:22:21,018 - 127.0.0.1 - - [04/May/2025 12:22:21] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:22:25,338 - 127.0.0.1 - - [04/May/2025 12:22:25] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:22:29,033 - 127.0.0.1 - - [04/May/2025 12:22:29] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:22:33,342 - 127.0.0.1 - - [04/May/2025 12:22:33] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:22:37,025 - 127.0.0.1 - - [04/May/2025 12:22:37] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:22:41,340 - 127.0.0.1 - - [04/May/2025 12:22:41] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:22:45,022 - 127.0.0.1 - - [04/May/2025 12:22:45] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:22:49,351 - 127.0.0.1 - - [04/May/2025 12:22:49] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:22:53,032 - 127.0.0.1 - - [04/May/2025 12:22:53] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:22:57,344 - 127.0.0.1 - - [04/May/2025 12:22:57] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:23:01,021 - 127.0.0.1 - - [04/May/2025 12:23:01] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:23:04,919 - 127.0.0.1 - - [04/May/2025 12:23:04] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:23:08,034 - 127.0.0.1 - - [04/May/2025 12:23:08] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:23:12,337 - 127.0.0.1 - - [04/May/2025 12:23:12] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:23:16,031 - 127.0.0.1 - - [04/May/2025 12:23:16] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:23:20,342 - 127.0.0.1 - - [04/May/2025 12:23:20] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:23:24,023 - 127.0.0.1 - - [04/May/2025 12:23:24] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:23:28,328 - 127.0.0.1 - - [04/May/2025 12:23:28] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:23:32,030 - 127.0.0.1 - - [04/May/2025 12:23:32] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:23:36,339 - 127.0.0.1 - - [04/May/2025 12:23:36] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:23:40,024 - 127.0.0.1 - - [04/May/2025 12:23:40] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:23:44,337 - 127.0.0.1 - - [04/May/2025 12:23:44] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:23:48,344 - 127.0.0.1 - - [04/May/2025 12:23:48] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:23:52,020 - 127.0.0.1 - - [04/May/2025 12:23:52] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:23:56,329 - 127.0.0.1 - - [04/May/2025 12:23:56] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:24:00,029 - 127.0.0.1 - - [04/May/2025 12:24:00] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:24:04,330 - 127.0.0.1 - - [04/May/2025 12:24:04] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:24:08,032 - 127.0.0.1 - - [04/May/2025 12:24:08] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:24:12,337 - 127.0.0.1 - - [04/May/2025 12:24:12] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:24:16,024 - 127.0.0.1 - - [04/May/2025 12:24:16] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:24:20,325 - 127.0.0.1 - - [04/May/2025 12:24:20] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:24:24,019 - 127.0.0.1 - - [04/May/2025 12:24:24] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:24:28,341 - 127.0.0.1 - - [04/May/2025 12:24:28] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:24:32,018 - 127.0.0.1 - - [04/May/2025 12:24:32] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:24:36,323 - 127.0.0.1 - - [04/May/2025 12:24:36] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:24:36,414 -  * Detected change in 'C:\\Users\\rznto\\OneDrive\\Desktop\\HardwareID_shower\\app.py', reloading
+2025-05-04 12:24:36,461 -  * Restarting with stat
+2025-05-04 12:24:38,078 -  * Debugger is active!
+2025-05-04 12:24:38,085 -  * Debugger PIN: 134-969-618
+2025-05-04 12:24:40,031 - 127.0.0.1 - - [04/May/2025 12:24:40] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:24:44,328 - 127.0.0.1 - - [04/May/2025 12:24:44] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:24:48,024 - 127.0.0.1 - - [04/May/2025 12:24:48] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:24:52,323 - 127.0.0.1 - - [04/May/2025 12:24:52] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:24:56,031 - 127.0.0.1 - - [04/May/2025 12:24:56] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:25:00,336 - 127.0.0.1 - - [04/May/2025 12:25:00] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:25:04,037 - 127.0.0.1 - - [04/May/2025 12:25:04] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:25:08,346 - 127.0.0.1 - - [04/May/2025 12:25:08] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:25:12,028 - 127.0.0.1 - - [04/May/2025 12:25:12] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:25:16,337 - 127.0.0.1 - - [04/May/2025 12:25:16] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:25:20,020 - 127.0.0.1 - - [04/May/2025 12:25:20] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:25:24,331 - 127.0.0.1 - - [04/May/2025 12:25:24] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:25:28,033 - 127.0.0.1 - - [04/May/2025 12:25:28] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:25:31,346 - 127.0.0.1 - - [04/May/2025 12:25:31] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:25:32,296 - 127.0.0.1 - - [04/May/2025 12:25:32] "GET / HTTP/1.1" 200 -
+2025-05-04 12:25:32,694 - 127.0.0.1 - - [04/May/2025 12:25:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-04 12:25:33,014 - 127.0.0.1 - - [04/May/2025 12:25:33] "GET /api/get_ids HTTP/1.1" 200 -
+2025-05-04 12:25:33,039 - 127.0.0.1 - - [04/May/2025 12:25:33] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:25:33,053 - 127.0.0.1 - - [04/May/2025 12:25:33] "[35m[1mGET /api/get_devices HTTP/1.1[0m" 500 -
+2025-05-04 12:25:33,120 - 127.0.0.1 - - [04/May/2025 12:25:33] "GET /api/get_processes HTTP/1.1" 200 -
+2025-05-04 12:25:36,102 - 127.0.0.1 - - [04/May/2025 12:25:36] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:25:39,414 - 127.0.0.1 - - [04/May/2025 12:25:39] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:25:42,423 - 127.0.0.1 - - [04/May/2025 12:25:42] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:25:45,735 - 127.0.0.1 - - [04/May/2025 12:25:45] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:25:48,745 - 127.0.0.1 - - [04/May/2025 12:25:48] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:25:52,065 - 127.0.0.1 - - [04/May/2025 12:25:52] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:25:56,035 - 127.0.0.1 - - [04/May/2025 12:25:56] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:26:00,339 - 127.0.0.1 - - [04/May/2025 12:26:00] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:26:04,024 - 127.0.0.1 - - [04/May/2025 12:26:04] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:26:08,335 - 127.0.0.1 - - [04/May/2025 12:26:08] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:26:12,026 - 127.0.0.1 - - [04/May/2025 12:26:12] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:26:16,336 - 127.0.0.1 - - [04/May/2025 12:26:16] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:26:20,032 - 127.0.0.1 - - [04/May/2025 12:26:20] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:26:24,345 - 127.0.0.1 - - [04/May/2025 12:26:24] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:26:28,024 - 127.0.0.1 - - [04/May/2025 12:26:28] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:26:32,342 - 127.0.0.1 - - [04/May/2025 12:26:32] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:26:36,023 - 127.0.0.1 - - [04/May/2025 12:26:36] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:26:40,338 - 127.0.0.1 - - [04/May/2025 12:26:40] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:26:44,031 - 127.0.0.1 - - [04/May/2025 12:26:44] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:26:48,338 - 127.0.0.1 - - [04/May/2025 12:26:48] "[33mGET /api/get_network_stats HTTP/1.1[0m" 404 -
+2025-05-04 12:26:50,841 - 127.0.0.1 - - [04/May/2025 12:26:50] "GET / HTTP/1.1" 200 -
+2025-05-04 12:26:51,163 - 127.0.0.1 - - [04/May/2025 12:26:51] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-04 12:26:51,478 - 127.0.0.1 - - [04/May/2025 12:26:51] "GET /api/get_ids HTTP/1.1" 200 -
+2025-05-04 12:26:51,480 - 127.0.0.1 - - [04/May/2025 12:26:51] "[35m[1mGET /api/get_devices HTTP/1.1[0m" 500 -
+2025-05-04 12:26:51,481 - 127.0.0.1 - - [04/May/2025 12:26:51] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:26:51,542 - 127.0.0.1 - - [04/May/2025 12:26:51] "GET /api/get_processes HTTP/1.1" 200 -
+2025-05-04 12:26:56,511 - 127.0.0.1 - - [04/May/2025 12:26:56] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:27:01,830 - 127.0.0.1 - - [04/May/2025 12:27:01] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:27:06,842 - 127.0.0.1 - - [04/May/2025 12:27:06] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:27:12,168 - 127.0.0.1 - - [04/May/2025 12:27:12] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:27:17,189 - 127.0.0.1 - - [04/May/2025 12:27:17] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:27:23,338 - 127.0.0.1 - - [04/May/2025 12:27:23] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:27:29,024 - 127.0.0.1 - - [04/May/2025 12:27:29] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:27:35,339 - 127.0.0.1 - - [04/May/2025 12:27:35] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:27:41,032 - 127.0.0.1 - - [04/May/2025 12:27:41] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:27:47,348 - 127.0.0.1 - - [04/May/2025 12:27:47] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:27:53,026 - 127.0.0.1 - - [04/May/2025 12:27:53] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:27:59,337 - 127.0.0.1 - - [04/May/2025 12:27:59] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:28:05,028 - 127.0.0.1 - - [04/May/2025 12:28:05] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:28:11,333 - 127.0.0.1 - - [04/May/2025 12:28:11] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:28:17,030 - 127.0.0.1 - - [04/May/2025 12:28:17] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:28:23,335 - 127.0.0.1 - - [04/May/2025 12:28:23] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:28:24,350 -  * Detected change in 'C:\\Users\\rznto\\OneDrive\\Desktop\\HardwareID_shower\\app.py', reloading
+2025-05-04 12:28:24,395 -  * Restarting with stat
+2025-05-04 12:28:26,069 -  * Debugger is active!
+2025-05-04 12:28:26,076 -  * Debugger PIN: 134-969-618
+2025-05-04 12:28:29,339 - 127.0.0.1 - - [04/May/2025 12:28:29] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:28:35,021 - 127.0.0.1 - - [04/May/2025 12:28:35] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:28:39,607 - 127.0.0.1 - - [04/May/2025 12:28:39] "GET / HTTP/1.1" 200 -
+2025-05-04 12:28:39,700 - 127.0.0.1 - - [04/May/2025 12:28:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-04 12:28:39,869 - 127.0.0.1 - - [04/May/2025 12:28:39] "GET /api/get_ids HTTP/1.1" 200 -
+2025-05-04 12:28:40,069 - 127.0.0.1 - - [04/May/2025 12:28:40] "[35m[1mGET /api/get_devices HTTP/1.1[0m" 500 -
+2025-05-04 12:28:40,094 - 127.0.0.1 - - [04/May/2025 12:28:40] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:28:40,144 - 127.0.0.1 - - [04/May/2025 12:28:40] "GET /api/get_processes HTTP/1.1" 200 -
+2025-05-04 12:28:45,445 - 127.0.0.1 - - [04/May/2025 12:28:45] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:28:50,453 - 127.0.0.1 - - [04/May/2025 12:28:50] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:28:55,775 - 127.0.0.1 - - [04/May/2025 12:28:55] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:29:00,788 - 127.0.0.1 - - [04/May/2025 12:29:00] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:29:06,105 - 127.0.0.1 - - [04/May/2025 12:29:06] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:29:12,025 - 127.0.0.1 - - [04/May/2025 12:29:12] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:29:18,339 - 127.0.0.1 - - [04/May/2025 12:29:18] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:29:24,020 - 127.0.0.1 - - [04/May/2025 12:29:24] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:29:30,340 - 127.0.0.1 - - [04/May/2025 12:29:30] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:29:36,029 - 127.0.0.1 - - [04/May/2025 12:29:36] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:29:42,338 - 127.0.0.1 - - [04/May/2025 12:29:42] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:29:48,025 - 127.0.0.1 - - [04/May/2025 12:29:48] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:29:54,337 - 127.0.0.1 - - [04/May/2025 12:29:54] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:30:00,018 - 127.0.0.1 - - [04/May/2025 12:30:00] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:30:06,334 - 127.0.0.1 - - [04/May/2025 12:30:06] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:30:12,025 - 127.0.0.1 - - [04/May/2025 12:30:12] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:30:18,338 - 127.0.0.1 - - [04/May/2025 12:30:18] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:30:24,025 - 127.0.0.1 - - [04/May/2025 12:30:24] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:30:30,337 - 127.0.0.1 - - [04/May/2025 12:30:30] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:30:36,023 - 127.0.0.1 - - [04/May/2025 12:30:36] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:30:42,336 - 127.0.0.1 - - [04/May/2025 12:30:42] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:30:48,025 - 127.0.0.1 - - [04/May/2025 12:30:48] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:30:49,995 - 127.0.0.1 - - [04/May/2025 12:30:49] "GET / HTTP/1.1" 200 -
+2025-05-04 12:30:50,003 - 127.0.0.1 - - [04/May/2025 12:30:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-04 12:30:50,258 - 127.0.0.1 - - [04/May/2025 12:30:50] "GET /api/get_ids HTTP/1.1" 200 -
+2025-05-04 12:30:50,352 - 127.0.0.1 - - [04/May/2025 12:30:50] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:30:50,364 - 127.0.0.1 - - [04/May/2025 12:30:50] "GET /api/get_processes HTTP/1.1" 200 -
+2025-05-04 12:30:50,365 - 127.0.0.1 - - [04/May/2025 12:30:50] "[35m[1mGET /api/get_devices HTTP/1.1[0m" 500 -
+2025-05-04 12:30:55,684 - 127.0.0.1 - - [04/May/2025 12:30:55] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:31:01,029 - 127.0.0.1 - - [04/May/2025 12:31:01] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:31:07,334 - 127.0.0.1 - - [04/May/2025 12:31:07] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:31:13,021 - 127.0.0.1 - - [04/May/2025 12:31:13] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:31:19,344 - 127.0.0.1 - - [04/May/2025 12:31:19] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:31:25,022 - 127.0.0.1 - - [04/May/2025 12:31:25] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:31:31,337 - 127.0.0.1 - - [04/May/2025 12:31:31] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:31:37,021 - 127.0.0.1 - - [04/May/2025 12:31:37] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:31:43,338 - 127.0.0.1 - - [04/May/2025 12:31:43] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:31:49,029 - 127.0.0.1 - - [04/May/2025 12:31:49] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:31:55,326 - 127.0.0.1 - - [04/May/2025 12:31:55] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:32:01,024 - 127.0.0.1 - - [04/May/2025 12:32:01] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:32:07,341 - 127.0.0.1 - - [04/May/2025 12:32:07] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:32:13,018 - 127.0.0.1 - - [04/May/2025 12:32:13] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:32:19,339 - 127.0.0.1 - - [04/May/2025 12:32:19] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:32:25,034 - 127.0.0.1 - - [04/May/2025 12:32:25] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:32:27,902 - 127.0.0.1 - - [04/May/2025 12:32:27] "GET / HTTP/1.1" 200 -
+2025-05-04 12:32:27,910 - 127.0.0.1 - - [04/May/2025 12:32:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-04 12:32:28,164 - 127.0.0.1 - - [04/May/2025 12:32:28] "GET /api/get_ids HTTP/1.1" 200 -
+2025-05-04 12:32:28,226 - 127.0.0.1 - - [04/May/2025 12:32:28] "[35m[1mGET /api/get_devices HTTP/1.1[0m" 500 -
+2025-05-04 12:32:28,282 - 127.0.0.1 - - [04/May/2025 12:32:28] "GET /api/get_processes HTTP/1.1" 200 -
+2025-05-04 12:32:28,283 - 127.0.0.1 - - [04/May/2025 12:32:28] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:32:33,636 - 127.0.0.1 - - [04/May/2025 12:32:33] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:32:38,646 - 127.0.0.1 - - [04/May/2025 12:32:38] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:32:43,963 - 127.0.0.1 - - [04/May/2025 12:32:43] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:32:48,968 - 127.0.0.1 - - [04/May/2025 12:32:48] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:32:51,495 - 127.0.0.1 - - [04/May/2025 12:32:51] "[33mPOST /api/kill_process HTTP/1.1[0m" 404 -
+2025-05-04 12:32:53,977 - 127.0.0.1 - - [04/May/2025 12:32:53] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:32:59,290 - 127.0.0.1 - - [04/May/2025 12:32:59] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:33:05,031 - 127.0.0.1 - - [04/May/2025 12:33:05] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:33:11,330 - 127.0.0.1 - - [04/May/2025 12:33:11] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:33:17,019 - 127.0.0.1 - - [04/May/2025 12:33:17] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:33:23,331 - 127.0.0.1 - - [04/May/2025 12:33:23] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:33:24,907 - 127.0.0.1 - - [04/May/2025 12:33:24] "GET / HTTP/1.1" 200 -
+2025-05-04 12:33:25,216 - 127.0.0.1 - - [04/May/2025 12:33:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-04 12:33:25,524 - 127.0.0.1 - - [04/May/2025 12:33:25] "GET /api/get_ids HTTP/1.1" 200 -
+2025-05-04 12:33:25,554 - 127.0.0.1 - - [04/May/2025 12:33:25] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:33:25,555 - 127.0.0.1 - - [04/May/2025 12:33:25] "[35m[1mGET /api/get_devices HTTP/1.1[0m" 500 -
+2025-05-04 12:33:25,590 - 127.0.0.1 - - [04/May/2025 12:33:25] "GET /api/get_processes HTTP/1.1" 200 -
+2025-05-04 12:33:30,593 - 127.0.0.1 - - [04/May/2025 12:33:30] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:33:36,340 - 127.0.0.1 - - [04/May/2025 12:33:36] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:33:42,028 - 127.0.0.1 - - [04/May/2025 12:33:42] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:33:48,339 - 127.0.0.1 - - [04/May/2025 12:33:48] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:33:54,021 - 127.0.0.1 - - [04/May/2025 12:33:54] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:34:00,333 - 127.0.0.1 - - [04/May/2025 12:34:00] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:34:06,021 - 127.0.0.1 - - [04/May/2025 12:34:06] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:34:12,329 - 127.0.0.1 - - [04/May/2025 12:34:12] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:34:18,026 - 127.0.0.1 - - [04/May/2025 12:34:18] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:34:24,333 - 127.0.0.1 - - [04/May/2025 12:34:24] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:34:30,021 - 127.0.0.1 - - [04/May/2025 12:34:30] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:34:35,690 -  * Detected change in 'C:\\Users\\rznto\\OneDrive\\Desktop\\HardwareID_shower\\app.py', reloading
+2025-05-04 12:34:35,731 -  * Restarting with stat
+2025-05-04 12:34:37,598 -  * Debugger is active!
+2025-05-04 12:34:37,604 -  * Debugger PIN: 134-969-618
+2025-05-04 12:34:37,776 - 127.0.0.1 - - [04/May/2025 12:34:37] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:34:43,034 - 127.0.0.1 - - [04/May/2025 12:34:43] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:34:49,341 - 127.0.0.1 - - [04/May/2025 12:34:49] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:34:55,030 - 127.0.0.1 - - [04/May/2025 12:34:55] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:34:57,552 - 127.0.0.1 - - [04/May/2025 12:34:57] "GET / HTTP/1.1" 200 -
+2025-05-04 12:34:57,652 - 127.0.0.1 - - [04/May/2025 12:34:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-04 12:34:57,794 - 127.0.0.1 - - [04/May/2025 12:34:57] "GET /api/get_ids HTTP/1.1" 200 -
+2025-05-04 12:34:58,012 - 127.0.0.1 - - [04/May/2025 12:34:58] "[35m[1mGET /api/get_devices HTTP/1.1[0m" 500 -
+2025-05-04 12:34:58,042 - 127.0.0.1 - - [04/May/2025 12:34:58] "GET /api/get_processes HTTP/1.1" 200 -
+2025-05-04 12:34:58,042 - 127.0.0.1 - - [04/May/2025 12:34:58] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:35:03,356 - 127.0.0.1 - - [04/May/2025 12:35:03] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:35:08,365 - 127.0.0.1 - - [04/May/2025 12:35:08] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:35:13,684 - 127.0.0.1 - - [04/May/2025 12:35:13] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:35:19,029 - 127.0.0.1 - - [04/May/2025 12:35:19] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:35:25,346 - 127.0.0.1 - - [04/May/2025 12:35:25] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:35:31,030 - 127.0.0.1 - - [04/May/2025 12:35:31] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:35:37,329 - 127.0.0.1 - - [04/May/2025 12:35:37] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:35:43,026 - 127.0.0.1 - - [04/May/2025 12:35:43] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:35:49,336 - 127.0.0.1 - - [04/May/2025 12:35:49] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:35:55,019 - 127.0.0.1 - - [04/May/2025 12:35:55] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:36:01,332 - 127.0.0.1 - - [04/May/2025 12:36:01] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:36:07,034 - 127.0.0.1 - - [04/May/2025 12:36:07] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:36:13,332 - 127.0.0.1 - - [04/May/2025 12:36:13] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:36:19,040 - 127.0.0.1 - - [04/May/2025 12:36:19] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:36:25,353 - 127.0.0.1 - - [04/May/2025 12:36:25] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:36:31,020 - 127.0.0.1 - - [04/May/2025 12:36:31] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:36:37,342 - 127.0.0.1 - - [04/May/2025 12:36:37] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:36:43,027 - 127.0.0.1 - - [04/May/2025 12:36:43] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:36:49,338 - 127.0.0.1 - - [04/May/2025 12:36:49] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:36:55,023 - 127.0.0.1 - - [04/May/2025 12:36:55] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:37:01,327 - 127.0.0.1 - - [04/May/2025 12:37:01] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:37:07,021 - 127.0.0.1 - - [04/May/2025 12:37:07] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:37:13,329 - 127.0.0.1 - - [04/May/2025 12:37:13] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:37:18,755 -  * Detected change in 'C:\\Users\\rznto\\OneDrive\\Desktop\\HardwareID_shower\\app.py', reloading
+2025-05-04 12:37:18,805 -  * Restarting with stat
+2025-05-04 12:37:20,394 -  * Debugger is active!
+2025-05-04 12:37:20,400 -  * Debugger PIN: 134-969-618
+2025-05-04 12:37:20,572 - 127.0.0.1 - - [04/May/2025 12:37:20] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:37:26,028 - 127.0.0.1 - - [04/May/2025 12:37:26] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:37:31,747 - 127.0.0.1 - - [04/May/2025 12:37:31] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:37:32,884 - 127.0.0.1 - - [04/May/2025 12:37:32] "GET / HTTP/1.1" 200 -
+2025-05-04 12:37:33,279 - 127.0.0.1 - - [04/May/2025 12:37:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-04 12:37:33,598 - 127.0.0.1 - - [04/May/2025 12:37:33] "GET /api/get_ids HTTP/1.1" 200 -
+2025-05-04 12:37:33,628 - 127.0.0.1 - - [04/May/2025 12:37:33] "[35m[1mGET /api/get_devices HTTP/1.1[0m" 500 -
+2025-05-04 12:37:33,658 - 127.0.0.1 - - [04/May/2025 12:37:33] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:37:33,678 - 127.0.0.1 - - [04/May/2025 12:37:33] "GET /api/get_processes HTTP/1.1" 200 -
+2025-05-04 12:37:38,692 - 127.0.0.1 - - [04/May/2025 12:37:38] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:37:44,003 - 127.0.0.1 - - [04/May/2025 12:37:44] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:37:49,024 - 127.0.0.1 - - [04/May/2025 12:37:49] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:37:55,330 - 127.0.0.1 - - [04/May/2025 12:37:55] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:38:01,030 - 127.0.0.1 - - [04/May/2025 12:38:01] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:38:07,352 - 127.0.0.1 - - [04/May/2025 12:38:07] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:38:13,031 - 127.0.0.1 - - [04/May/2025 12:38:13] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:38:17,970 -  * Detected change in 'C:\\Users\\rznto\\OneDrive\\Desktop\\HardwareID_shower\\app.py', reloading
+2025-05-04 12:38:18,015 -  * Restarting with stat
+2025-05-04 12:38:19,651 -  * Debugger is active!
+2025-05-04 12:38:19,659 -  * Debugger PIN: 134-969-618
+2025-05-04 12:38:19,847 - 127.0.0.1 - - [04/May/2025 12:38:19] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:38:25,031 - 127.0.0.1 - - [04/May/2025 12:38:25] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:38:30,344 - 127.0.0.1 - - [04/May/2025 12:38:30] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:38:30,616 - 127.0.0.1 - - [04/May/2025 12:38:30] "GET / HTTP/1.1" 200 -
+2025-05-04 12:38:30,743 - 127.0.0.1 - - [04/May/2025 12:38:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-04 12:38:30,934 - 127.0.0.1 - - [04/May/2025 12:38:30] "GET /api/get_ids HTTP/1.1" 200 -
+2025-05-04 12:38:31,072 - 127.0.0.1 - - [04/May/2025 12:38:31] "[35m[1mGET /api/get_devices HTTP/1.1[0m" 500 -
+2025-05-04 12:38:31,102 - 127.0.0.1 - - [04/May/2025 12:38:31] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:38:31,139 - 127.0.0.1 - - [04/May/2025 12:38:31] "GET /api/get_processes HTTP/1.1" 200 -
+2025-05-04 12:38:36,132 - 127.0.0.1 - - [04/May/2025 12:38:36] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:38:41,443 - 127.0.0.1 - - [04/May/2025 12:38:41] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:38:46,446 - 127.0.0.1 - - [04/May/2025 12:38:46] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:38:51,759 - 127.0.0.1 - - [04/May/2025 12:38:51] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:38:56,950 - Process 9808 not found.
+2025-05-04 12:38:56,951 - 127.0.0.1 - - [04/May/2025 12:38:56] "[33mPOST /api/kill_process HTTP/1.1[0m" 404 -
+2025-05-04 12:38:57,234 - 127.0.0.1 - - [04/May/2025 12:38:57] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:39:02,551 - 127.0.0.1 - - [04/May/2025 12:39:02] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:39:08,025 - 127.0.0.1 - - [04/May/2025 12:39:08] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:39:14,338 - 127.0.0.1 - - [04/May/2025 12:39:14] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:39:20,025 - 127.0.0.1 - - [04/May/2025 12:39:20] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:39:26,337 - 127.0.0.1 - - [04/May/2025 12:39:26] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:39:32,017 - 127.0.0.1 - - [04/May/2025 12:39:32] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:39:38,340 - 127.0.0.1 - - [04/May/2025 12:39:38] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:39:44,031 - 127.0.0.1 - - [04/May/2025 12:39:44] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:39:50,334 - 127.0.0.1 - - [04/May/2025 12:39:50] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:39:56,022 - 127.0.0.1 - - [04/May/2025 12:39:56] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:40:02,330 - 127.0.0.1 - - [04/May/2025 12:40:02] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:40:08,024 - 127.0.0.1 - - [04/May/2025 12:40:08] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:40:14,330 - 127.0.0.1 - - [04/May/2025 12:40:14] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:40:20,032 - 127.0.0.1 - - [04/May/2025 12:40:20] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:40:26,335 - 127.0.0.1 - - [04/May/2025 12:40:26] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:40:31,993 - 127.0.0.1 - - [04/May/2025 12:40:31] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:40:37,328 - 127.0.0.1 - - [04/May/2025 12:40:37] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:40:43,020 - 127.0.0.1 - - [04/May/2025 12:40:43] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:40:49,340 - 127.0.0.1 - - [04/May/2025 12:40:49] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:40:55,033 - 127.0.0.1 - - [04/May/2025 12:40:55] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:41:01,338 - 127.0.0.1 - - [04/May/2025 12:41:01] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:41:07,028 - 127.0.0.1 - - [04/May/2025 12:41:07] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:41:13,331 - 127.0.0.1 - - [04/May/2025 12:41:13] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:41:19,038 - 127.0.0.1 - - [04/May/2025 12:41:19] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:41:25,342 - 127.0.0.1 - - [04/May/2025 12:41:25] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:41:31,023 - 127.0.0.1 - - [04/May/2025 12:41:31] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:41:37,334 - 127.0.0.1 - - [04/May/2025 12:41:37] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:41:43,027 - 127.0.0.1 - - [04/May/2025 12:41:43] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:41:49,335 - 127.0.0.1 - - [04/May/2025 12:41:49] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:41:55,022 - 127.0.0.1 - - [04/May/2025 12:41:55] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:42:01,341 - 127.0.0.1 - - [04/May/2025 12:42:01] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:42:07,024 - 127.0.0.1 - - [04/May/2025 12:42:07] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:42:13,335 - 127.0.0.1 - - [04/May/2025 12:42:13] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:42:19,029 - 127.0.0.1 - - [04/May/2025 12:42:19] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:42:25,329 - 127.0.0.1 - - [04/May/2025 12:42:25] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:42:31,021 - 127.0.0.1 - - [04/May/2025 12:42:31] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:42:37,331 - 127.0.0.1 - - [04/May/2025 12:42:37] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:42:43,019 - 127.0.0.1 - - [04/May/2025 12:42:43] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:42:49,339 - 127.0.0.1 - - [04/May/2025 12:42:49] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:42:55,019 - 127.0.0.1 - - [04/May/2025 12:42:55] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:43:01,342 - 127.0.0.1 - - [04/May/2025 12:43:01] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:43:07,024 - 127.0.0.1 - - [04/May/2025 12:43:07] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:43:09,720 -  * Detected change in 'C:\\Users\\rznto\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pip\\_vendor\\__init__.py', reloading
+2025-05-04 12:43:09,771 -  * Restarting with stat
+2025-05-04 12:43:11,397 -  * Debugger is active!
+2025-05-04 12:43:11,405 -  * Debugger PIN: 134-969-618
+2025-05-04 12:43:13,338 - 127.0.0.1 - - [04/May/2025 12:43:13] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:43:19,023 - 127.0.0.1 - - [04/May/2025 12:43:19] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:43:25,332 - 127.0.0.1 - - [04/May/2025 12:43:25] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:43:31,022 - 127.0.0.1 - - [04/May/2025 12:43:31] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:43:37,325 - 127.0.0.1 - - [04/May/2025 12:43:37] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:43:43,031 - 127.0.0.1 - - [04/May/2025 12:43:43] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:43:49,330 - 127.0.0.1 - - [04/May/2025 12:43:49] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:43:55,031 - 127.0.0.1 - - [04/May/2025 12:43:55] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:44:01,339 - 127.0.0.1 - - [04/May/2025 12:44:01] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:44:07,030 - 127.0.0.1 - - [04/May/2025 12:44:07] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:44:13,331 - 127.0.0.1 - - [04/May/2025 12:44:13] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:44:19,028 - 127.0.0.1 - - [04/May/2025 12:44:19] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:44:23,238 - 127.0.0.1 - - [04/May/2025 12:44:23] "GET / HTTP/1.1" 200 -
+2025-05-04 12:44:23,338 - 127.0.0.1 - - [04/May/2025 12:44:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-04 12:44:23,494 - 127.0.0.1 - - [04/May/2025 12:44:23] "GET /api/get_ids HTTP/1.1" 200 -
+2025-05-04 12:44:23,706 - 127.0.0.1 - - [04/May/2025 12:44:23] "[35m[1mGET /api/get_devices HTTP/1.1[0m" 500 -
+2025-05-04 12:44:23,706 - 127.0.0.1 - - [04/May/2025 12:44:23] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:44:23,726 - 127.0.0.1 - - [04/May/2025 12:44:23] "GET /api/get_processes HTTP/1.1" 200 -
+2025-05-04 12:44:29,049 - 127.0.0.1 - - [04/May/2025 12:44:29] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:44:34,077 - 127.0.0.1 - - [04/May/2025 12:44:34] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:44:38,522 -  * Detected change in 'C:\\Users\\rznto\\OneDrive\\Desktop\\HardwareID_shower\\app.py', reloading
+2025-05-04 12:44:38,561 -  * Restarting with stat
+2025-05-04 12:44:40,180 -  * Debugger is active!
+2025-05-04 12:44:40,188 -  * Debugger PIN: 134-969-618
+2025-05-04 12:44:40,363 - 127.0.0.1 - - [04/May/2025 12:44:40] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:44:46,018 - 127.0.0.1 - - [04/May/2025 12:44:46] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:44:52,338 - 127.0.0.1 - - [04/May/2025 12:44:52] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:44:58,021 - 127.0.0.1 - - [04/May/2025 12:44:58] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:45:04,329 - 127.0.0.1 - - [04/May/2025 12:45:04] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:45:10,030 - 127.0.0.1 - - [04/May/2025 12:45:10] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:45:16,331 - 127.0.0.1 - - [04/May/2025 12:45:16] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:45:22,029 - 127.0.0.1 - - [04/May/2025 12:45:22] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:45:28,328 - 127.0.0.1 - - [04/May/2025 12:45:28] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:45:34,021 - 127.0.0.1 - - [04/May/2025 12:45:34] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:45:40,336 - 127.0.0.1 - - [04/May/2025 12:45:40] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:45:46,029 - 127.0.0.1 - - [04/May/2025 12:45:46] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:45:52,335 - 127.0.0.1 - - [04/May/2025 12:45:52] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:45:58,027 - 127.0.0.1 - - [04/May/2025 12:45:58] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:46:04,330 - 127.0.0.1 - - [04/May/2025 12:46:04] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:46:10,019 - 127.0.0.1 - - [04/May/2025 12:46:10] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 12:46:13,326 -  * Detected change in 'C:\\Users\\rznto\\OneDrive\\Desktop\\HardwareID_shower\\app.py', reloading
+2025-05-04 12:46:13,371 -  * Restarting with stat
+2025-05-04 13:22:01,492 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-04 13:22:01,493 - [33mPress CTRL+C to quit[0m
+2025-05-04 13:22:04,040 - 127.0.0.1 - - [04/May/2025 13:22:04] "GET / HTTP/1.1" 200 -
+2025-05-04 13:22:04,160 - 127.0.0.1 - - [04/May/2025 13:22:04] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-04 13:22:04,167 - 127.0.0.1 - - [04/May/2025 13:22:04] "GET /api/get_ids HTTP/1.1" 200 -
+2025-05-04 13:22:04,187 - 127.0.0.1 - - [04/May/2025 13:22:04] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 13:22:04,200 - 127.0.0.1 - - [04/May/2025 13:22:04] "[35m[1mGET /api/get_devices HTTP/1.1[0m" 500 -
+2025-05-04 13:22:04,243 - 127.0.0.1 - - [04/May/2025 13:22:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-04 13:22:05,124 - 127.0.0.1 - - [04/May/2025 13:22:05] "GET /api/get_processes HTTP/1.1" 200 -
+2025-05-04 13:22:09,299 - 127.0.0.1 - - [04/May/2025 13:22:09] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 13:22:12,703 - Access denied to terminate process 4.
+2025-05-04 13:22:12,704 - 127.0.0.1 - - [04/May/2025 13:22:12] "[31m[1mPOST /api/kill_process HTTP/1.1[0m" 403 -
+2025-05-04 13:22:15,658 - Access denied to terminate process 0.
+2025-05-04 13:22:15,658 - 127.0.0.1 - - [04/May/2025 13:22:15] "[31m[1mPOST /api/kill_process HTTP/1.1[0m" 403 -
+2025-05-04 13:22:15,662 - 127.0.0.1 - - [04/May/2025 13:22:15] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 13:22:18,797 - Access denied to terminate process 4.
+2025-05-04 13:22:18,797 - 127.0.0.1 - - [04/May/2025 13:22:18] "[31m[1mPOST /api/kill_process HTTP/1.1[0m" 403 -
+2025-05-04 13:22:20,666 - 127.0.0.1 - - [04/May/2025 13:22:20] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 13:22:25,670 - 127.0.0.1 - - [04/May/2025 13:22:25] "[33mGET /api/get_network_interfaces HTTP/1.1[0m" 404 -
+2025-05-04 13:43:01,910 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-04 13:43:01,911 - [33mPress CTRL+C to quit[0m
+2025-05-04 13:43:02,609 - 127.0.0.1 - - [04/May/2025 13:43:02] "GET / HTTP/1.1" 200 -
+2025-05-04 13:43:02,733 - 127.0.0.1 - - [04/May/2025 13:43:02] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-04 13:43:02,738 - 127.0.0.1 - - [04/May/2025 13:43:02] "GET /api/get_ids HTTP/1.1" 200 -
+2025-05-04 13:43:02,768 - 127.0.0.1 - - [04/May/2025 13:43:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-04 13:53:02,061 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-04 13:53:02,061 - [33mPress CTRL+C to quit[0m
+2025-05-04 13:53:03,087 - 127.0.0.1 - - [04/May/2025 13:53:03] "GET / HTTP/1.1" 200 -
+2025-05-04 13:53:03,217 - 127.0.0.1 - - [04/May/2025 13:53:03] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-04 13:53:03,222 - 127.0.0.1 - - [04/May/2025 13:53:03] "GET /api/get_ids HTTP/1.1" 200 -
+2025-05-04 13:53:03,319 - 127.0.0.1 - - [04/May/2025 13:53:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-04 13:53:04,169 - 127.0.0.1 - - [04/May/2025 13:53:04] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:53:08,704 - Failed to kill process 4: (pid=4)
+2025-05-04 13:53:08,704 - 127.0.0.1 - - [04/May/2025 13:53:08] "[35m[1mPOST /api/kill_process HTTP/1.1[0m" 500 -
+2025-05-04 13:53:08,713 - 127.0.0.1 - - [04/May/2025 13:53:08] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:53:08,726 - 127.0.0.1 - - [04/May/2025 13:53:08] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:53:13,233 - 127.0.0.1 - - [04/May/2025 13:53:13] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:53:14,987 - Failed to kill process 1372: process no longer exists (pid=1372)
+2025-05-04 13:53:14,987 - 127.0.0.1 - - [04/May/2025 13:53:14] "[35m[1mPOST /api/kill_process HTTP/1.1[0m" 500 -
+2025-05-04 13:53:15,000 - 127.0.0.1 - - [04/May/2025 13:53:15] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:53:18,242 - 127.0.0.1 - - [04/May/2025 13:53:18] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:53:23,243 - 127.0.0.1 - - [04/May/2025 13:53:23] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:53:28,231 - 127.0.0.1 - - [04/May/2025 13:53:28] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:53:33,234 - 127.0.0.1 - - [04/May/2025 13:53:33] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:53:38,233 - 127.0.0.1 - - [04/May/2025 13:53:38] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:53:43,236 - 127.0.0.1 - - [04/May/2025 13:53:43] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:53:48,233 - 127.0.0.1 - - [04/May/2025 13:53:48] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:53:51,902 - Failed to kill process 16820: process no longer exists (pid=16820)
+2025-05-04 13:53:51,903 - 127.0.0.1 - - [04/May/2025 13:53:51] "[35m[1mPOST /api/kill_process HTTP/1.1[0m" 500 -
+2025-05-04 13:53:51,918 - 127.0.0.1 - - [04/May/2025 13:53:51] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:53:53,233 - 127.0.0.1 - - [04/May/2025 13:53:53] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:53:58,233 - 127.0.0.1 - - [04/May/2025 13:53:58] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:54:03,252 - 127.0.0.1 - - [04/May/2025 13:54:03] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:54:07,639 - Failed to kill process 20592: process no longer exists (pid=20592)
+2025-05-04 13:54:07,640 - 127.0.0.1 - - [04/May/2025 13:54:07] "[35m[1mPOST /api/kill_process HTTP/1.1[0m" 500 -
+2025-05-04 13:54:07,652 - 127.0.0.1 - - [04/May/2025 13:54:07] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:54:08,230 - 127.0.0.1 - - [04/May/2025 13:54:08] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:54:14,137 - 127.0.0.1 - - [04/May/2025 13:54:14] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:54:14,337 - Failed to kill process 20272: process no longer exists (pid=20272)
+2025-05-04 13:54:14,337 - 127.0.0.1 - - [04/May/2025 13:54:14] "[35m[1mPOST /api/kill_process HTTP/1.1[0m" 500 -
+2025-05-04 13:54:14,349 - 127.0.0.1 - - [04/May/2025 13:54:14] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:54:18,235 - 127.0.0.1 - - [04/May/2025 13:54:18] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:54:24,027 - 127.0.0.1 - - [04/May/2025 13:54:24] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:54:29,039 - 127.0.0.1 - - [04/May/2025 13:54:29] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:54:34,035 - 127.0.0.1 - - [04/May/2025 13:54:34] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:54:39,035 - 127.0.0.1 - - [04/May/2025 13:54:39] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:54:44,030 - 127.0.0.1 - - [04/May/2025 13:54:44] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:54:49,041 - 127.0.0.1 - - [04/May/2025 13:54:49] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:54:54,036 - 127.0.0.1 - - [04/May/2025 13:54:54] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:54:59,027 - 127.0.0.1 - - [04/May/2025 13:54:59] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:55:04,056 - 127.0.0.1 - - [04/May/2025 13:55:04] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:55:09,034 - 127.0.0.1 - - [04/May/2025 13:55:09] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:55:14,029 - 127.0.0.1 - - [04/May/2025 13:55:14] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:55:19,058 - 127.0.0.1 - - [04/May/2025 13:55:19] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:55:49,196 - 127.0.0.1 - - [04/May/2025 13:55:49] "GET / HTTP/1.1" 200 -
+2025-05-04 13:55:49,215 - 127.0.0.1 - - [04/May/2025 13:55:49] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-04 13:55:49,222 - 127.0.0.1 - - [04/May/2025 13:55:49] "GET /api/get_ids HTTP/1.1" 200 -
+2025-05-04 13:55:49,234 - 127.0.0.1 - - [04/May/2025 13:55:49] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:55:49,255 - 127.0.0.1 - - [04/May/2025 13:55:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-04 13:56:09,056 - 127.0.0.1 - - [04/May/2025 13:56:09] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:57:09,036 - 127.0.0.1 - - [04/May/2025 13:57:09] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:58:08,785 - 127.0.0.1 - - [04/May/2025 13:58:08] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:58:13,248 - 127.0.0.1 - - [04/May/2025 13:58:13] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:58:18,232 - 127.0.0.1 - - [04/May/2025 13:58:18] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:58:23,238 - 127.0.0.1 - - [04/May/2025 13:58:23] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:58:28,233 - 127.0.0.1 - - [04/May/2025 13:58:28] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:58:33,238 - 127.0.0.1 - - [04/May/2025 13:58:33] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:58:38,230 - 127.0.0.1 - - [04/May/2025 13:58:38] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:58:40,336 - Randomized CPU IDs from ['BFEBFBFF000A0652'] to ['R67N28QSOP1YI2RI']
+2025-05-04 13:58:40,338 - Randomized Hard Drive Serial Numbers from ['0000_0000_0000_0000_0026_B778_4E91_CD85.'] to ['QCUUB1BWXIS6IA1H']
+2025-05-04 13:58:40,338 - 127.0.0.1 - - [04/May/2025 13:58:40] "POST /api/randomize HTTP/1.1" 200 -
+2025-05-04 13:58:43,230 - 127.0.0.1 - - [04/May/2025 13:58:43] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:58:48,231 - 127.0.0.1 - - [04/May/2025 13:58:48] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:58:53,238 - 127.0.0.1 - - [04/May/2025 13:58:53] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:58:58,242 - 127.0.0.1 - - [04/May/2025 13:58:58] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:59:03,240 - 127.0.0.1 - - [04/May/2025 13:59:03] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:59:08,230 - 127.0.0.1 - - [04/May/2025 13:59:08] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:59:13,231 - 127.0.0.1 - - [04/May/2025 13:59:13] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:59:16,520 - Failed to kill process 12168: process no longer exists (pid=12168)
+2025-05-04 13:59:16,521 - 127.0.0.1 - - [04/May/2025 13:59:16] "[35m[1mPOST /api/kill_process HTTP/1.1[0m" 500 -
+2025-05-04 13:59:16,533 - 127.0.0.1 - - [04/May/2025 13:59:16] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:59:18,232 - 127.0.0.1 - - [04/May/2025 13:59:18] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:59:23,232 - 127.0.0.1 - - [04/May/2025 13:59:23] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:59:25,880 - Failed to kill process 14288: process no longer exists (pid=14288)
+2025-05-04 13:59:25,881 - 127.0.0.1 - - [04/May/2025 13:59:25] "[35m[1mPOST /api/kill_process HTTP/1.1[0m" 500 -
+2025-05-04 13:59:25,892 - 127.0.0.1 - - [04/May/2025 13:59:25] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:59:28,231 - 127.0.0.1 - - [04/May/2025 13:59:28] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:59:33,232 - 127.0.0.1 - - [04/May/2025 13:59:33] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:59:37,867 - Failed to kill process 15572: process no longer exists (pid=15572)
+2025-05-04 13:59:37,868 - 127.0.0.1 - - [04/May/2025 13:59:37] "[35m[1mPOST /api/kill_process HTTP/1.1[0m" 500 -
+2025-05-04 13:59:37,880 - 127.0.0.1 - - [04/May/2025 13:59:37] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:59:38,244 - 127.0.0.1 - - [04/May/2025 13:59:38] "GET /api/processes HTTP/1.1" 200 -
+2025-05-04 13:59:43,243 - 127.0.0.1 - - [04/May/2025 13:59:43] "GET /api/processes HTTP/1.1" 200 -
